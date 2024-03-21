@@ -1,7 +1,12 @@
 # LG_AIMERS Hachathon 3기
 
 ## 참고
-해당 repository에는 Informer 모델 코드만 올려두었음
+해당 repository에는 Informer 모델 코드만 올려두었음  
+
+
+**[수정한 파일]**
++ **models/embeded.py** : 'season'과 'numweek'를 추가하여 `TimeFeatureEmbedding` 수정, 제품의 대•중•소•브랜드 코드 임베딩을 위해서 `CategoryEmbedding` 추가 구현. 이를 반영해서 `DataEmbedding`의 순전파 수정
++ **utils/timefeatures.py** : 시간 특성을 잘 반영하기 위해 'season'과 'numweek'를 추가하여 수정
 
 ## 대회 개요
 + **주최/주관** | LG AI Research
