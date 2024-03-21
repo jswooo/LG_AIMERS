@@ -1,4 +1,4 @@
-# LG_AIMERS HACKATHON 3기
+# LG_AIMERS Hachathon 3기
 
 ## 참고
 해당 repository에는 Informer 모델 코드만 올려두었음
